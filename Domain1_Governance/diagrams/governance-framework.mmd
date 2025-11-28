@@ -1,0 +1,23 @@
+%% Governance Framework Diagram — Domain 1
+flowchart TD
+    Board[Board of Directors]
+    CEO[CEO]
+    SeniorMgmt[Senior Management]
+    CISO[CISO]
+    CPO[CPO]
+    CRO[CRO]
+    Steering[Security Steering Committee]
+    RiskOwner[Risk Owners]
+    ControlOwner[Control Owners]
+    Employees[All Employees]
+
+    Board -->|Sets Governance & Oversight| CEO
+    CEO -->|Implements Governance| SeniorMgmt
+    SeniorMgmt -->|Supports Security & Business Alignment| CISO
+    SeniorMgmt -->|Supports Privacy| CPO
+    SeniorMgmt -->|Manages Enterprise Risk| CRO
+    CISO -->|Security Strategy & Implementation| Steering
+    Steering -->|Communicates & Coordinates| Employees
+    CISO -->|Guides| RiskOwner
+    RiskOwner -->|Delegates Control Tasks| ControlOwner
+    ControlOwner -->|Executes Security Controls| Employees
