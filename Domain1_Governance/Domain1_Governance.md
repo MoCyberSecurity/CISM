@@ -2,7 +2,6 @@
 
 ## 1. Introduction
 **Key Points:**
-- CISM Domain 1 focuses on strategic aspects more than technical.
 - Emphasis on aligning security governance with business objectives.
 - Foundation for the rest of CISM domains.
 
