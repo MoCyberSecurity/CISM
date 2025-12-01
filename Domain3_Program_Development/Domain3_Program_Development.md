@@ -113,10 +113,12 @@ Effective data governance minimises risks from loss, leakage, or misuse of criti
 
 ---
 ## Diagrams
-- [Program Lifecycle Diagram](diagrams/program-lifecycle.mmd)
+- [Main Program Lifecycle Diagram](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/diagram.mmd)
+- [Example Diagram](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/examples/diagram.mmd)
 
 ## Examples
-- [Program Charter Example](examples/program-charter-example.md)
-- [Risk Classification Example](examples/risk-classification-example.md)
-- [Security Metrics Example](examples/security-metrics-example.md)
-- [Control Implementation Example](examples/control-implementation-example.md)
+- [Program Charter Example](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/examples/program_charter_example.md)
+- [Risk Classification Example](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/examples/risk_classification_example.md)
+- [Security Metrics Example](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/examples/security_metrics_example.md)
+- [Control Implementation Example](https://github.com/MoCyberSecurity/CISM/blob/main/Domain3_Program_Development/examples/control_implementation_example.md)
+
