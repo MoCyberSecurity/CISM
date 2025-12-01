@@ -112,3 +112,20 @@ Data governance defines **how data is protected and managed**:
 Effective data governance minimizes risks from loss, leakage, or misuse of critical information.
 
 ---
+## Lifecycle Diagram
+
+```mermaid
+flowchart TB
+    A[Program Charter] --> B[Risk & Asset Classification]
+    B --> C[Security Metrics]
+    C --> D[Control Implementation]
+    D --> E[Operational Activities]
+    E --> F[Monitoring & Continuous Improvement]
+    F --> A
+
+    subgraph Examples
+        A_ex[Program Charter Example] --> A
+        B_ex[Risk Classification Example] --> B
+        C_ex[Security Metrics Example] --> C
+        D_ex[Control Implementation Example] --> D
+    end
