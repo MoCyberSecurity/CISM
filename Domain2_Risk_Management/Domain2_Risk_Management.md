@@ -340,4 +340,13 @@ CISM evaluates whether you can:
 ## Visual References
 
 📊 [Risk Management Lifecycle Diagram](https://github.com/MoCyberSecurity/CISM/blob/main/Domain2_Risk_Management/diagrams/risk-management-lifecycle.mmd)
-md
+
+## Examples
+
+Here are some practical examples related to Domain 2 – Risk Management:
+
+- [Risk Appetite Example](examples/risk_appetite_example.md)  
+- [Risk Tolerance Example](examples/risk_tolerance_example.md)  
+- [Risk Capacity Example](examples/risk_capacity_example.md)  
+- [Risk Scenario Analysis Example](examples/risk_scenario_analysis.md)
+
