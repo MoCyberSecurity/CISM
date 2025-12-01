@@ -1,0 +1,49 @@
+flowchart TB
+
+A["Asset Identification"]
+B["Threat Identification"]
+C["Vulnerability Assessment"]
+D["Risk Analysis (Impact + Likelihood)"]
+E["Risk Evaluation vs Appetite & Tolerance"]
+F{"Risk Treatment Decision"}
+G["Accept"]
+H["Mitigate"]
+I["Transfer"]
+J["Avoid"]
+K["Control Implementation"]
+L["Monitoring & Metrics"]
+M["Governance Reporting"]
+N["Continuous Improvement"]
+
+A --> B --> C --> D --> E --> F
+
+F -->|Within Appetite & Tolerance| G
+F -->|Exceeds Tolerance| H
+F -->|Risk Can Be Shifted| I
+F -->|Unacceptable Risk| J
+
+H --> K
+I --> K
+J --> K
+
+K --> L --> M --> N --> A
+
+subgraph Risk_Boundaries
+RA["Risk Appetite (Willingness)"]
+RT["Risk Tolerance (Deviation)"]
+RC["Risk Capacity (Survival Limit)"]
+
+RA --> RT --> RC
+end
+
+E --> RA
+
+subgraph Roles
+RO["Risk Owner (Accountable)"]
+CO["Control Owner (Responsible)"]
+BPO["Business Process Owner"]
+end
+
+H --> RO
+K --> CO
+E --> BPO
