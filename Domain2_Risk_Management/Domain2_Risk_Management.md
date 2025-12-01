@@ -336,3 +336,7 @@ CISM evaluates whether you can:
 | **Domain 1 – Governance** | Risk strategy flows from governance objectives |
 | **Domain 3 – Program Management** | Controls implemented through security programs |
 | **Domain 4 – Incident Management** | Incident response validates risk assumptions |
+
+```markdown
+📊 View the lifecycle diagram:
+https://github.com/MoCyberSecurity/CISM/blob/main/Domain2_Risk_Management/diagrams/risk-management-lifecycle.mmd
