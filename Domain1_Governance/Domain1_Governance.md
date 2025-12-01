@@ -126,3 +126,9 @@ Evaluating effectiveness ensures governance and security programs achieve their 
 
 **Explanation:**  
 Effective information security governance ensures the organization’s information assets are protected, risks are managed, and security efforts support business objectives.
+
+## Domain 1: Governance
+
+- [Main Page](https://github.com/MoCyberSecurity/CISM/blob/main/Domain1_Governance/Domain1_Governance.md)
+- [Examples: Security Metrics](https://github.com/MoCyberSecurity/CISM/blob/main/Domain1_Governance/examples/security-metrics-examples.md)
+- [Diagram: Governance Framework](https://github.com/MoCyberSecurity/CISM/blob/main/Domain1_Governance/diagrams/governance-framework.mmd)
