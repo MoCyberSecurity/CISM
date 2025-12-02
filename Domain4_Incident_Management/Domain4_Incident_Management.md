@@ -317,7 +317,7 @@ Metrics validate:
   - **RTO (time to restore) vs RPO (data loss limit)**
 - Follow logical flow:
   **BIA → BCP → DRP**
-- Focus on integration and business alignment rather than memorizing frameworks.
+- Focus on integration and business alignment rather than memorising frameworks.
 
 ---
 
@@ -328,3 +328,17 @@ Metrics validate:
 - **BIA → BCP → DRP** = progressive resilience chain.
 - **Categorization = Type** | **Classification = Severity**
 - **Testing and metrics drive continuous improvement.**
+
+- 
+## Diagrams
+- [Incident Management Framework](diagrams/incident-management-framework.mmd)
+- [BIA → BCP → DRP Exam Flow Diagram](diagrams/exam-flow.mmd)
+
+---
+
+## Examples
+
+- [Incident Response Playbook Example](examples/incident-response-playbook-example.md)
+- [Business Continuity Plan Outline](examples/bcp-outline-example.md)
+- [Disaster Recovery Site Selection](examples/dr-site-selection-example.md)
+- [Incident Classification & Severity Matrix](examples/classification-severity-matrix.md)
