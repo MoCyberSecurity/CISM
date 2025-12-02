@@ -1,0 +1,32 @@
+flowchart TB
+
+A[Incident Management Program] --> B[Incident Response Plan IRP]
+A --> C[Business Impact Analysis BIA]
+C --> D[Business Continuity Plan BCP]
+D --> E[Disaster Recovery Plan DRP]
+
+B --> F[Preparation]
+F --> G[Identification]
+G --> H[Containment]
+H --> I[Eradication]
+I --> J[Recovery]
+J --> K[Lessons Learned]
+
+subgraph Incident Classification
+    L[Categorization<br/>(Incident Type)]
+    M[Classification<br/>(Severity)]
+end
+
+G --> L
+L --> M
+M --> H
+
+subgraph Testing & Improvement
+    T[Training]
+    U[Tabletop Exercises]
+    V[Simulations]
+    W[Full Interruption Tests]
+end
+
+K --> T
+T --> U --> V --> W --> A
