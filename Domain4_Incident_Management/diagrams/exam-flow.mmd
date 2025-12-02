@@ -1,0 +1,11 @@
+flowchart LR
+
+BIA -->|Identify Impact| BCP
+BCP -->|Business Continuity| DRP
+DRP -->|IT Recovery| IRP
+
+IRP --> Detection
+Detection --> Response
+Response --> Recovery
+Recovery --> Review
+Review --> BIA
